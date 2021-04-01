@@ -21,7 +21,7 @@ steps:
 - script: pwd
   displayName: 'Who am I?'
 
-- script: ip -a
+- script: ip a
   displayName: 'Who am I exactly?'
 
 - script: bash task01.sh
