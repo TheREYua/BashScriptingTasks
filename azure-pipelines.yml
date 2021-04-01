@@ -18,8 +18,11 @@ steps:
     echo See https://aka.ms/yaml
   displayName: 'Run a multi-line script'
 
-- script: ls -l
-  displayName: 'Look into the folder'
+- script: pwd
+  displayName: 'Who am I?'
 
-- script: bash task13.sh
-  displayName: 'Try to run script 13'
+- script: ip -a
+  displayName: 'Who am I exactly?'
+
+- script: bash task01.sh
+  displayName: 'Try to run script 01'
